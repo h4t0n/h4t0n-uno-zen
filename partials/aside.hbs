@@ -1,12 +1,12 @@
 <aside class="cover">
 
-  <div class="cover container">
+  <div class="cover container" {{#if @blog.cover}} style="background-image: url({{@blog.cover}})"{{/if}}>
     <div class="profile">
       {{#if @blog.logo}}
       <a id="avatar-link" title="link to homepage for {{@blog.title}}" href="{{@blog.url}}/#open">
         <img src="{{@blog.logo}}" alt="{{@blog.title}} avatar" class="profile avatar hvr-buzz-out" />
-        <h1>Kiko Beats</h1>
-        <h3 id="profile-resume">Software Engineer</h3>
+        <h1>Andrea Tarquini</h1>
+        <h3 id="profile-resume">IT Geek, Programming Language Polyglot and an IT security enthusiast.</h3>
       </a>
       {{/if}}
 
