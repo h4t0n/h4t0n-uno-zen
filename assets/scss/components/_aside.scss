@@ -113,4 +113,9 @@
     margin: 0 5px;
     @include btn-cover-with-border;
   }
+    
+  &:hover {
+    color: $white;
+  }
 }
+
